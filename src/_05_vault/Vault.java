@@ -7,7 +7,6 @@ public class Vault {
 	Vault(){
 		Random randy = new Random();
 		code = randy.nextInt(1000)+1;
-		
 	}
 	boolean tryCode(int guess) {
 		return (code==guess);
